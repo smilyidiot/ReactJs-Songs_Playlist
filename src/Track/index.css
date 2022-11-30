@@ -1,0 +1,44 @@
+.track {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.track-image {
+  height: 100px;
+}
+
+.track-details {
+  margin: 0px;
+  flex-grow: 1;
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.song-name {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.genre {
+  color: #3b82f6;
+}
+
+.duration {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 40px;
+}
+
+.delete-button {
+  background-color: transparent;
+  border: 0px solid;
+  margin-right: 40px;
+}
+
+.del-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: #ffffff;
+}
